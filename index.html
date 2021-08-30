@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Drunk Bunnymark</title>
+	
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="description" content="" />
+	
+	<link rel="stylesheet" type="text/css" href="https://cdn.mathgames.com/api/dist/latest/mathgames-api.css">
+	
+	<style>
+		body {
+			margin: 0;
+			background: black;
+		}
+		
+		#content {
+			width: 650px;
+			height: 970px;
+			margin: 60px auto 20px auto;
+			box-shadow: 0px 4px 16px -4px #333;
+		}
+		
+		@media (max-device-width: 8in), (max-device-height: 8in) {
+			html {
+				overflow: hidden;
+			}
+			html, body {
+				height: 100%;
+			}
+			#content {
+				margin: inherit;
+				box-shadow: none;
+			}
+			.no-mobile {
+				display: none;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="content"></div>
+	<script src="game.js"></script>
+</body>
+</html>
